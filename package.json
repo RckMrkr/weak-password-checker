@@ -1,0 +1,33 @@
+{
+  "name": "weak-password-checker",
+  "version": "1.0.0",
+  "description": "A way to easily and efficiently check against most used passwords",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RckMrkr/weak-password-checker.git"
+  },
+  "keywords": [
+    "Bloomfilter",
+    "password",
+    "security",
+    "common"
+  ],
+  "author": "Rick Marker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RckMrkr/weak-password-checker/issues"
+  },
+  "homepage": "https://github.com/RckMrkr/weak-password-checker#readme",
+  "dependencies": {
+    "bloomfilter": "0.0.16",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.0.0"
+  }
+}
